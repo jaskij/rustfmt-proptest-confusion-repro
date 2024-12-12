@@ -1,0 +1,11 @@
+[package]
+name = "proptest-rep"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytes = "1.9.0"
+valuable = { version = "0.1.0", features = ["derive"] }
+
+[dev-dependencies]
+proptest = "1.5.0"
